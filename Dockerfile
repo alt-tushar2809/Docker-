@@ -1,5 +1,5 @@
 FROM nginx:latest
-COPY inde
+COPY index.html 
 
 
 
