@@ -1,3 +1,3 @@
 FROM centos
 RUN yum update
-RUN mkdir 
+RUN mkdir Test 
