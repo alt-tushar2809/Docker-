@@ -1,4 +1,5 @@
-FROM nginx
+FROM nginx:latest
+COPY inde
 
 
 
