@@ -1,4 +1,5 @@
 FROM centos
 RUN yum update
 RUN mkdir Test 
-RUN 
+RUN yum install tree 
+
