@@ -1,6 +1,7 @@
-FROM nginx:latest
-COPY index.html /usr/share/nginx/html/index.html
-RUN chmod +r /usr/share/nginx/html/index.html
-CMD ["nginx","-g","daemon off;"] 
-
-
+FROM tomcat:8-jre8
+# Maintainer 
+MAINTAINER "abhishek"
+# Copy the war file into the tomcat webapps location 
+COPY WebApp.war /usr/local/tomcat/webapps
+# expose the 8080 port
+EXPOSE 8080
