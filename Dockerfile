@@ -1,6 +1,6 @@
 FROM tomcat:8-jre8
 # Maintainer 
-MAINTAINER 'Tushar'
+NAME 'Tushar'
 # Copy the war file into the tomcat webapps location 
 COPY WebApp.war /usr/local/tomcat/webapps
 # expose the 8080 port
